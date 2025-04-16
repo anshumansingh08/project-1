@@ -1,0 +1,1 @@
+const halua = 10;
