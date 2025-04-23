@@ -1,0 +1,32 @@
+react project in Typescript
+2 screen project.
+1st screen- Form
+2nd screen- GRID table
+
+deadline- tomorrow
+
+
+
+form -
+1 input box, 1 text area, Multiselect Checkbox, 1 radio button, select box.
+
+
+For eg, create form, with input field
+Name-  Text
+Age- Number
+Email - accept only Emails
+Tech Stack - multiselect checkbox
+Gender- Radio button
+Other Hobbies- Description.
+Form should have proper validations, all will mandatory
+
+In the second screen-
+It should display in GRID data with CRUD operation on all field. Make it Nice
+
+
+
+
+
+
+
+Tech Stack- React, Typescript, Redux toolkit, Form and table should be nice, state management. Code quality should be good.
