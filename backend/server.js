@@ -19,4 +19,4 @@ app.get("/api/chat/:id", (req, res) => {
   res.send(chats.find((c) => c._id === req.params.id));
 });
 
-app.listen(PORT, () => console.log("Server Started on port 5000"));
+app.listen(PORT, () => console.log(`Server Started on port ${PORT}`));
