@@ -1,8 +1,4 @@
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
-
+// @ts-ignore
 import { BrowserRouter } from "react-router";
 import HomePage from "./pages/HomePage.jsx";
 
