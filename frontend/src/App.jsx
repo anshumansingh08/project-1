@@ -1,11 +1,10 @@
-// @ts-ignore
 import { BrowserRouter } from "react-router";
-import HomePage from "./pages/HomePage.jsx";
+import AppRoutes from "./routers/Routes.jsx";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <HomePage />
+      <AppRoutes />
     </BrowserRouter>
   );
 };

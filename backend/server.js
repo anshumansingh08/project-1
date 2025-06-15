@@ -1,13 +1,11 @@
 import dotenv from "dotenv";
 import express from "express";
-import chats from "./data.js";
+import chats from "./data/data.js";
 const PORT = process.env.PORT || 5000;
 const app = express();
 dotenv.config();
 
 app.get("/", (req, res) => {
-  console.log(res + " Response console");
-
   res.send("Server running");
 });
 
